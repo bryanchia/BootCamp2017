@@ -321,10 +321,10 @@ plt.ylabel(r'K')
 plt.ylim([0.075, 0.08]) 
 plt.show()
 
-for e in range (1, T):
+for e in range (0, T):
     if abs(Kvec[e] - Kvec_stable [0]) >= 0.0001:
         e+=1
     else:
         print (e)
 
-#It took 6 periods. 
+#It took 7 periods. 
